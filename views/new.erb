@@ -1,0 +1,30 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic HTML Page</title>
+    <link rel="stylesheet" href="/home.css">
+  </head>
+
+  <body>
+    <h1>
+      New Articles: Submission Page
+    </h1>
+
+    <form action="/articles/new" method="post">
+      <label for="article_title">Article Title</label>
+      <input type="text" id="article_title" name="article_title"></br>
+
+      <label for="url">URL</label>
+      <input type="text" id="url" name="url"></br>
+
+      <label for="description">Description</label>
+      <input type="text" id="description" name="description">
+
+      <input type="submit">
+    </form>
+
+    <a href="/articles">All articles</a>
+  </body>
+</html>

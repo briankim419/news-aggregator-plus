@@ -1,0 +1,11 @@
+<h1>All Articles</h1>
+
+<ul>
+<% @articles.each do |article| %>
+  <li> <%= article.article_title %> - <a href="<%= article.url%>" target="_blank"><%=article.url %></a> - <%= article.description %> </li>
+    <%end%>
+</ul>
+
+
+<a href="/articles/new">Submit New Articles</a></br>
+<a href="/articles">All articles</a>
